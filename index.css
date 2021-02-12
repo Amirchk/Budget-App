@@ -1,0 +1,35 @@
+body{
+    
+}
+#container{
+    display: grid;
+    grid-column-gap: 1%;
+    grid-row-gap: 10%;
+    grid-template-columns: auto auto auto auto;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+}
+#container #BudgetIn{
+    display: grid;
+}
+#container #YourBudget{
+    
+}
+#PlaceItemName{
+/*    display: grid;*/
+}
+#PlaceItemName #ItemName{
+    display: grid;
+    padding: 6%;
+}
+#PlaceItemName #ItemPrice{
+    display: grid;
+    padding: 6%;
+}
+button{
+    padding: 6%;
+    margin: 6%;
+    color: white;
+    background-color: cornflowerblue;
+}

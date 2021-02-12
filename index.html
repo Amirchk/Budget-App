@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Bughet App</title>
+		<link href="index.css" rel="stylesheet"/>
+	</head>
+	<body>
+        <h3>BUGDET APP</h3>
+        <div id="container">
+            <div id="budgetIn">
+                <input type="text" id="BudgetInput" placeholder="Enter your Budget"/>
+                <button onclick="ShowYourBudget()">Add your Budget</button>
+            </div>
+            <div id="YourBudget">
+                <h2>your Budget</h2>
+                <h2 id="BudgetHere"></h2>
+            </div>
+            <div id="Expenses">
+                <h2>Expenses</h2>
+                <h2 id="Expense"></h2>
+            </div>
+            <div id="Balance">
+                <h2>Balance Remaining</h2>
+                <h2 id="Balacnes"></h2>
+            </div>
+            <!--SECOND ROW--->
+            <div id="PlaceItemName">
+                <input type="text" id="ItemName" placeholder="Enter Item name"/>
+                <input type="text" id="ItemPrice" placeholder="Enter Item Price"/>
+                <button onclick="ShowRemainingBudget()">ADD EXPENSE</button>
+            </div>
+            <div id="Expense Title ID">
+                <h2 id="Expense_Title">Expense Title</h2>
+                <div id="ExpenseTitle"></div>
+            </div>
+            <div id="Expense Value">
+                <h2>Expense Value</h2>
+                <div id="ExpenseValue"></div>
+            </div>
+        </div>
+	</body>
+	<script src="Budget.js" ></script>
+</html>
